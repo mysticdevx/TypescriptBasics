@@ -1,5 +1,5 @@
 // create class
-class classDemo {
+export class classDemo {
     // properties, methods, constructor
     username: string;
     password: string;
@@ -30,10 +30,12 @@ class classDemo {
 
 }
 
+// below is to define and call from the same file without export import
+
 //create object from class and use properties
-let classObject = new classDemo("my username before", "my password", 123);
-console.log("user name before: " + classObject.getUsername());
-classObject.setUsername("my username after");
-console.log("user name after: " + classObject.getUsername());
-console.log("pass: " + classObject.getPassword());
-console.log("ssn: " + classObject.getSSN());
+// let classObject = new classDemo("my username before", "my password", 123);
+// console.log("user name before: " + classObject.getUsername());
+// classObject.setUsername("my username after");
+// console.log("user name after: " + classObject.getUsername());
+// console.log("pass: " + classObject.getPassword());
+// console.log("ssn: " + classObject.getSSN());

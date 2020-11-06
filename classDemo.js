@@ -1,3 +1,6 @@
+"use strict";
+exports.__esModule = true;
+exports.classDemo = void 0;
 // create class
 var classDemo = /** @class */ (function () {
     function classDemo(uname, pwd, sn) {
@@ -20,10 +23,12 @@ var classDemo = /** @class */ (function () {
     };
     return classDemo;
 }());
+exports.classDemo = classDemo;
+// below is to define and call from the same file without export import
 //create object from class and use properties
-var classObject = new classDemo("my username before", "my password", 123);
-console.log("user name before: " + classObject.getUsername());
-classObject.setUsername("my username after");
-console.log("user name after: " + classObject.getUsername());
-console.log("pass: " + classObject.getPassword());
-console.log("ssn: " + classObject.getSSN());
+// let classObject = new classDemo("my username before", "my password", 123);
+// console.log("user name before: " + classObject.getUsername());
+// classObject.setUsername("my username after");
+// console.log("user name after: " + classObject.getUsername());
+// console.log("pass: " + classObject.getPassword());
+// console.log("ssn: " + classObject.getSSN());
