@@ -1,8 +1,9 @@
 
-interface vehicle {
+export interface vehicle {
     color: string;
     engine: number;
     camera: boolean;
+    automatic?: boolean; // makes the property optional
 }
 
 let bmw =
@@ -10,6 +11,16 @@ let bmw =
     color: "red",
     engine: 1000,
     camera: false
+
+}
+
+let audi =
+{
+    color: "red",
+    engine: 1000,
+    camera: false,
+    automatic: true
+
 }
 
 let xyz =
