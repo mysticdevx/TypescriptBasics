@@ -1,3 +1,6 @@
+// spread operators are same with varargs in java
+//the number of parameters are not predefined. see below
+
 function add(...values) {
     let total = 0;
     for (var value of values) {

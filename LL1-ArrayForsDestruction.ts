@@ -22,10 +22,10 @@ for (var value of array) {
 }
 
 //**  take a look at it **********************************************/
-// destructiong
+// destructing: array elements can be rachable by the defined names
 var array2 = [123, "pickup materials", false];
 var [id, title, completed] = array2;
-//above code converting it to selerate variables in js
+//above code converting it to seperate variables in js
 var id = array2[0], title = array2[1], completed = array2[2];
 
 //best example
