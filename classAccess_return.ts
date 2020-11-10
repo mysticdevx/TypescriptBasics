@@ -1,8 +1,9 @@
+//to access a class import it by {name} from 'path'
 import {classDemo} from './classDemo';
 
 
 
-
+// create an object from clasdDemo
 let clsdm = new classDemo("a","b",1);
 console.log("user name before: " + clsdm.getUsername());
 clsdm.setUsername("my username after");

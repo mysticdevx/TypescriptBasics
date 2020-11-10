@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+//to access a class import it by {name} from 'path'
 var classDemo_1 = require("./classDemo");
+// create an object from clasdDemo
 var clsdm = new classDemo_1.classDemo("a", "b", 1);
 console.log("user name before: " + clsdm.getUsername());
 clsdm.setUsername("my username after");

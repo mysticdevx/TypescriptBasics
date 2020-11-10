@@ -38,3 +38,7 @@ list.push(4);
 var values: (string | number)[] = ["apple", 2, "mango"];
 let values2: Array<string | number> = [1, 2, "mango"];
 
+//while listing array with different joiner
+var aaa = [1, 2, 3];
+console.log(aaa.join(" - ")); // 1 - 2 - 3
+

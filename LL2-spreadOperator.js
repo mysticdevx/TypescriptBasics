@@ -56,3 +56,16 @@ var liste3 = [1, 2, 3];
 var liste4 = [4, 5, 6];
 liste3.push.apply(liste3, liste4);
 console.log("liste 3: " + liste3);
+// use of spread with types
+//when declaring with type we must give as array
+function greetx(greetmsg) {
+    var names = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        names[_i - 1] = arguments[_i];
+    }
+    return greetmsg + " " + names;
+}
+greetx("welcome", "a", "b", "ce"); //welcome a,b,ce
+//while listing array with different joiner
+var aa = [1, 2, 3];
+console.log(aa.join(" - ")); // 1 - 2 - 3

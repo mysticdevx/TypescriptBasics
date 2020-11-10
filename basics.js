@@ -29,3 +29,6 @@ list.push(4);
 // optional, union type
 var values = ["apple", 2, "mango"];
 var values2 = [1, 2, "mango"];
+//while listing array with different joiner
+var aaa = [1, 2, 3];
+console.log(aaa.join(" - ")); // 1 - 2 - 3
